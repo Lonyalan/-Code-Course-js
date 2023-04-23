@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS home work</title>
+    <style>
+        body {
+            font-family: consolas;
+        }
+    </style>
+</head>
+<body>
+    <h1>Java Script home work</h1>
+    
+    <h3>1. <u>What is the difference between 'var' and 'let'?</u> </h3>
+    <p>Both are Java Script keyword;  <b>'var'</b> is used in Java Script since 1995 but <b>'let'</b> was added to Java Script in 2015. <br>
+    Unlike <b>'var'</b>, <b>'let'</b> can't be redeclared, must be declared before use and have a block scope. </p>
+    
+    <h3>2. <u>Java Script arithmetic:</u></h3>
+    <p>((1/6)*(3/2))/((4/3)+(1/2)) = ?</p>
+    <b><p id="result"></p></b>
+
+    <script>
+        let a = 1, b = 2, c = 3;
+        x = ((a / 6) * (c / b)) / ((4 / c) + (a / b))
+        document.getElementById("result").innerHTML = "the answer is =" + " " +  x; 
+
+    </script>
+</body>
+</html>

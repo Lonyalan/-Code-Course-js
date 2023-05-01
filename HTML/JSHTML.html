@@ -12,21 +12,25 @@
     </style>
 </head>
 <body>
-    <h1>Java Script home work</h1>
+    <h1>Java Script home work 2</h1>
     
-    <h3>1. <u>What is the difference between 'var' and 'let'?</u> </h3>
-    <p>Both are Java Script keyword;  <b>'var'</b> is used in Java Script since 1995 but <b>'let'</b> was added to Java Script in 2015. <br>
-    Unlike <b>'var'</b>, <b>'let'</b> can't be redeclared, must be declared before use and have a block scope. </p>
+    <h1>1. <u>Multiplication table of 4</u> </h1>
+    <h3>Find under the result for the even multiplication table of 4 :</h3>
+    <div><button onclick="evenmultiplicationtableof4()" style="height: 30px; background-color: green;color:white;border: none; border-radius : 10px ;">Click here to show the Even Multiplication Table of 4</button>
+    </div>
+    <b><p id="resulteven" style="font-size: 15px;"></p></b>
+
+    <h3>Find under the result for the odd multiplication table of 4 :</h3>
+    <div><button onclick="oddmultiplicationtableof4()" style="height: 30px; background-color: rgb(64, 64, 227);color:white;border: none; border-radius : 10px ;">Click here to show the Odd Multiplication Table of 4</button>
+    </div>
+    <b><p id="resultodd"></p></b> <hr>
+
+    <h1>2. <u>Second Degree Equation:</u></h1>
+    <h3> If: a=10, b=20, c=30 and x=1; <br> Find Z = (a*x <sup>2</sup>)+(b*(x+c))</h3>
     
-    <h3>2. <u>Java Script arithmetic:</u></h3>
-    <p>((1/6)*(3/2))/((4/3)+(1/2)) = ?</p>
-    <b><p id="result"></p></b>
-
-    <script>
-        let a = 1, b = 2, c = 3;
-        x = ((a / 6) * (c / b)) / ((4 / c) + (a / b))
-        document.getElementById("result").innerHTML = "the answer is =" + " " +  x; 
-
-    </script>
+    <button onclick="seconddegreeequation()" style="height: 30px; background-color: red;color:white;border: none; border-radius : 10px ;">Click here to find "Z"</button>
+    <div><b>Z = <span id="resultequation"></span></b>
+    </div>
+    <script src="../HTML/Home worh 2.js"></script>
 </body>
 </html>
